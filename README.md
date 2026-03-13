@@ -32,7 +32,7 @@ Add to your MCP settings:
 {
   "signbee": {
     "command": "npx",
-    "args": ["-y", "@signbee/mcp"],
+    "args": ["-y", "signbee-mcp"],
     "env": {
       "SIGNBEE_API_KEY": "your-api-key"
     }
