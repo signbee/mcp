@@ -15,7 +15,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "signbee": {
       "command": "npx",
-      "args": ["-y", "@signbee/mcp"],
+      "args": ["-y", "signbee-mcp"],
       "env": {
         "SIGNBEE_API_KEY": "your-api-key-from-signb.ee/dashboard"
       }
