@@ -4,6 +4,10 @@ Document signing for AI agents — as an MCP tool.
 
 Send, sign, and verify documents with a single tool call. Works with Claude, Cursor, Windsurf, and any MCP-compatible client.
 
+<a href="https://glama.ai/mcp/servers/signbee/mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/signbee/mcp/badge" alt="signbee-mcp MCP server" />
+</a>
+
 ## Quick Setup
 
 ### Claude Desktop
