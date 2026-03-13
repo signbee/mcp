@@ -1,0 +1,39 @@
+{
+  "name": "@signbee/mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Signbee — document signing for AI agents",
+  "type": "module",
+  "bin": {
+    "signbee-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "tsc --watch",
+    "start": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "signbee",
+    "document-signing",
+    "ai-agents",
+    "e-signatures"
+  ],
+  "author": "B2bee Ltd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talentseek/signbee-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/node": "^22.0.0"
+  }
+}
